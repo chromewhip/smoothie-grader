@@ -148,6 +148,28 @@ class SmoothiesController < ApplicationController
     @calciumherb = Food.where(name: params["herb"]).limit(1).pluck(:calcium)
     @ironherb = Food.where(name: params["herb"]).limit(1).pluck(:iron)
 
+
+    #TOTALS
+
+
+    @potassiumtotal = @potassiumfruit[0] + @potassiumveg[0] + @potassiumliquid[0] + @potassiumseednut[0] + @potassiumherb[0]
+    @calstotal = @calsfruit + @calsveg + @calsliquid + @calsseednut + @calsherb
+    @cals_from_fattotal = @cals_from_fatfruit + @cals_from_fatveg + @cals_from_fatliquid + @cals_from_fatseednut + @cals_from_fatherb
+    @totalfattotal = @sat_fatfruit[0] + @trans_fatfruit[0] + @sat_fatveg[0] + @trans_fatveg[0] + @sat_fatliquid[0] + @trans_fatliquid[0] + @sat_fatseednut[0] + @trans_fatseednut[0] + @sat_fatherb[0] + @trans_fatherb[0]
+    @sat_fattotal = @sat_fatfruit[0] + @sat_fatveg[0] + @sat_fatliquid[0] + @sat_fatseednut[0] + @sat_fatherb[0]
+    @trans_fattotal = @trans_fatfruit[0] + @trans_fatveg[0] + @trans_fatliquid[0] + @trans_fatseednut[0] + @trans_fatherb[0]
+    @cholesteroltotal = @cholesterolfruit[0] + @cholesterolveg[0] + @cholesterolliquid[0] + @cholesterolseednut[0] + @cholesterolherb[0]
+    @sodiumtotal = @sodiumfruit[0] + @sodiumveg[0] + @sodiumliquid[0] + @sodiumseednut[0] + @sodiumherb[0]
+    @carbstotal = @carbsfruit[0] + @carbsveg[0] + @carbsliquid[0] + @carbsseednut[0] + @carbsherb[0]
+    @fiberstotal = @fibersfruit[0] + @fibersveg[0] + @fibersliquid[0] + @fibersseednut[0] + @fibersherb[0]
+    @sugarstotal = @sugarsfruit[0] + @sugarsveg[0] + @sugarsliquid[0] + @sugarsseednut[0] + @sugarsherb[0]
+    @proteintotal = @proteinfruit[0] + @proteinveg[0] + @proteinliquid[0] + @proteinseednut[0] + @proteinherb[0]
+    @vitAtotal_daily = ((@vitAfruit[0] + @vitAveg [0]+ @vitAliquid[0] + @vitAseednut[0] + @vitAherb[0]) / 3000) * 100
+    @vitCtotal_daily = ((@vitCfruit[0] + @vitCveg[0] + @vitCliquid[0] + @vitCseednut[0] + @vitCherb[0]) / 85) * 100
+    @calcium_daily = ((@calciumfruit[0] + @calciumveg[0] + @calciumveg[0] + @calciumseednut[0] + @calciumherb[0]) / 1000) * 100
+    @iron_daily = ((@ironfruit[0] + @ironveg[0] + @ironliquid[0] + @ironseednut[0] + @ironherb[0]) / 16) * 100
+
+
     if @ingredientherb[0] == "default"
       @ingredientherb[0] = ""
     end
@@ -165,22 +187,22 @@ class SmoothiesController < ApplicationController
       'showPolyFat' => false,
       'showMonoFat' => false,
 
-      'valuePotassium' => @potassiumfruit[0] + @potassiumveg[0] + @potassiumliquid[0] + @potassiumseednut[0] + @potassiumherb[0],
-      'valueCalories' => @calsfruit + @calsveg + @calsliquid + @calsseednut + @calsherb,
-      'valueFatCalories' => @cals_from_fatfruit + @cals_from_fatveg + @cals_from_fatliquid + @cals_from_fatseednut + @cals_from_fatherb,
-      'valueTotalFat' => @sat_fatfruit[0] + @trans_fatfruit[0] + @sat_fatveg[0] + @trans_fatveg[0] + @sat_fatliquid[0] + @trans_fatliquid[0] + @sat_fatseednut[0] + @trans_fatseednut[0] + @sat_fatherb[0] + @trans_fatherb[0],
-      'valueSatFat' => @sat_fatfruit[0] + @sat_fatveg[0] + @sat_fatliquid[0] + @sat_fatseednut[0] + @sat_fatherb[0],
-      'valueTransFat' => @trans_fatfruit[0] + @trans_fatveg[0] + @trans_fatliquid[0] + @trans_fatseednut[0] + @trans_fatherb[0],
-      'valueCholesterol' => @cholesterolfruit[0] + @cholesterolveg[0] + @cholesterolliquid[0] + @cholesterolseednut[0] + @cholesterolherb[0],
-      'valueSodium' => @sodiumfruit[0] + @sodiumveg[0] + @sodiumliquid[0] + @sodiumseednut[0] + @sodiumherb[0],
-      'valueTotalCarb' => @carbsfruit[0] + @carbsveg[0] + @carbsliquid[0] + @carbsseednut[0] + @carbsherb[0],
-      'valueFibers' => @fibersfruit[0] + @fibersveg[0] + @fibersliquid[0] + @fibersseednut[0] + @fibersherb[0],
-      'valueSugars' => @sugarsfruit[0] + @sugarsveg[0] + @sugarsliquid[0] + @sugarsseednut[0] + @sugarsherb[0],
-      'valueProteins' => @proteinfruit[0] + @proteinveg[0] + @proteinliquid[0] + @proteinseednut[0] + @proteinherb[0],
-      'valueVitaminA' => ((@vitAfruit[0] + @vitAveg [0]+ @vitAliquid[0] + @vitAseednut[0] + @vitAherb[0]) / 3000) * 100,
-      'valueVitaminC' => ((@vitCfruit[0] + @vitCveg[0] + @vitCliquid[0] + @vitCseednut[0] + @vitCherb[0]) / 85) * 100,
-      'valueCalcium' => ((@calciumfruit[0] + @calciumveg[0] + @calciumveg[0] + @calciumseednut[0] + @calciumherb[0]) / 1000) * 100,
-      'valueIron' => ((@ironfruit[0] + @ironveg[0] + @ironliquid[0] + @ironseednut[0] + @ironherb[0]) / 16) * 100
+      'valuePotassium' => @potassiumtotal,
+      'valueCalories' => @calstotal,
+      'valueFatCalories' => @cals_from_fattotal,
+      'valueTotalFat' => @totalfattotal,
+      'valueSatFat' => @sat_fattotal,
+      'valueTransFat' => @trans_fattotal,
+      'valueCholesterol' => @cholesteroltotal,
+      'valueSodium' => @sodiumtotal,
+      'valueTotalCarb' => @carbstotal,
+      'valueFibers' => @fiberstotal,
+      'valueSugars' => @sugarstotal,
+      'valueProteins' => @proteintotal,
+      'valueVitaminA' => @vitAtotal_daily,
+      'valueVitaminC' => @vitCtotal_daily,
+      'valueCalcium' => @calcium_daily,
+      'valueIron' => @iron_daily
     }
   end
 end

@@ -90,13 +90,20 @@ var Form = React.createClass({
         <option>Brown Sugar</option>
         <option>Sugar</option>
       </select>
-        <p className="carry-on">Almost done! Just enter your information below and we'll send you your grade</p>
-        <label className="form-label "for="firstname_query">First Name</label>
-        <input className="form-entry" name="firstname_query" type="text" />
-        <label className="form-label "for="lastname_query">Last Name</label>
-        <input className="form-entry" name="lastname_query" type="text" />
-        <label className="form-label "for="email_query">Email</label>
-        <input className="form-entry" name="email_query" type="text" />
+      <label className="form-label "for="protein_query">Miscellaneous</label>
+      <select className="form-entry" name="miscellaneous">
+        <option selected disabled>- Please Select -</option>
+        <option>Soy protein powder</option>
+        <option>Whey protein powder</option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+        <option></option>
+      </select>
         <input className="btn-grade" type="submit" value="GRADE MY SMOOTHIE" />
       </form>
     </div>

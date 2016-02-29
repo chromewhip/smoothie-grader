@@ -7,7 +7,7 @@ var Nav = React.createClass({
         </a>
         <div className="btn-menu">
           <nav>
-            <ul>
+            <ul id="nav-buttons">
               <a href="https://smoothieveggies.com/our-story/" className="dropdown"><li>About</li></a>
               <a href="https://smoothieveggies.com/faqs/"><li>FAQs</li></a>
               <a href="https://smoothieveggies.com/recipes/"><li>Recipes</li></a>
