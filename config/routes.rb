@@ -4,6 +4,7 @@
 
   get '/nutritional' => 'smoothies#nutritional'
   get '/nutritionaljson' => 'smoothies#nutritionaljson'
+  get 'work' => 'smoothies#work'
 
 
 end

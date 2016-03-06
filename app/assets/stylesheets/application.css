@@ -16,6 +16,12 @@
     src: url(PaytoneOne.ttf);
 }
 
+ @font-face {
+    font-family: txteditor;
+    src: url(Inconsolata-Regular.ttf);
+}
+
+
 header.site-header {
   background-color: rgba(0,135,125,0.9);
   height: 110px;
@@ -27,6 +33,7 @@ body {
  margin-right: 0px;
  margin-bottom: 0px;
  margin-left: 0px
+
 }
 
 img.site-logo {
@@ -70,8 +77,14 @@ img.site-logo {
   max-width: 800px;
   text-align: center;
   margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
   color: white;
+  background-color: rgba(0,135,125,0.6);
+  padding: 7px;
+  margin-top: 30px; 
+  padding-top: 5px;
+  border-radius: 5px;
+  border: 1.5px solid white;
+  font-family: txteditor;
 }
 
 /*Form*/
@@ -96,13 +109,13 @@ img.site-logo {
 }
 
 .btn-grade:hover {
-  background-color: #00877d;
+  background-color: rgba(0,135,125,0.6);
 }
 
 
 
 html { 
-    background:  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(http://cdn2.hubspot.net/hubfs/1910946/Stock_Photos/restaurant-drink-colorful-colourful.jpg?t=1454533692616) no-repeat center center fixed;
+    background:  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://images2.alphacoders.com/653/653444.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -123,12 +136,14 @@ html {
   display: block;
   margin: auto;
   color: white;
+  font-family: txteditor;
 }
 
 .form-label {
   float: left;
   margin-top: 15px;
   margin-bottom: 15px;
+  font-family: txteditor;
 }
 
 .form-contain {
@@ -146,9 +161,33 @@ html {
 #nutritional-label {
  background-color: white;
  width: 302px;
+ text-align: left;
+ margin-left: 20px;
 }
 
-@media screen and (max-width: 890px) {
-  
-  
+#nutritional-container {
+  max-width: 800px;
+  text-align: center;
+  margin: auto;
+  color: white;
+  background-color: rgba(0,135,125,0.6);
+  padding: 7px;
+  margin-top: 30px; 
+  padding-top: 5px;
+  border-radius: 5px;
+  border: 1.5px solid white;
+  font-family: txteditor;
+  margin-bottom: 20px;
+}
+
+#score {
+  font-size: 8em;
+  margin-bottom: -73%;
+  margin-left: 350px;
+}
+
+.headline {
+  font-size: 3em;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

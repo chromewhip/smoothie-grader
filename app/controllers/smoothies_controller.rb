@@ -4,6 +4,9 @@ class SmoothiesController < ApplicationController
   def index
   end
 
+  def work
+  end
+
   def nutritional
     @fruit = params[:fruit]
     @veg = params[:veg]
@@ -202,7 +205,8 @@ class SmoothiesController < ApplicationController
       'valueVitaminA' => @vitAtotal_daily,
       'valueVitaminC' => @vitCtotal_daily,
       'valueCalcium' => @calcium_daily,
-      'valueIron' => @iron_daily
+      'valueIron' => @iron_daily,
+      'valueOmegaThree' => @sat_fattotal + @trans_fattotal
     }
   end
 end

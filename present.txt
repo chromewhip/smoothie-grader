@@ -1,0 +1,24 @@
+Intro. One man show.
+I was a carpenter before this with zero programming experience.
+A acquantince of mine who runs a local start up out of launch academy reached out for a page he wanted done.
+Working with client.
+Designed to be fit into Smoothie Veggies
+Did not use any of their code but matched aesthetic.
+Stack Postgres database with a Rails backend. 
+Little bit of React going on in the front end along with some JQuery.
+No CSS framework all custom.
+Pick your ingredients for your smoothie.
+General health grading algo that is based on fiber, vitC and omega 3.
+Custom error message.
+Nutritional facts is a JQuery plugin that is being sent JSON data from the backend.
+Show them Vitamin C blaster.
+
+Some things about me you can take away from this presentation are
+I am a capable full stack developer. I made this entire app. Database architecture, implementing backend logic,
+building out a stylish and interactive front end.
+
+I learn fast. I didn't know anything about web development besides some basic HTML and CSS skills.
+
+Last slide. Get a hold of me. Let's geek out.
+Students, employers, mentors and just genreally curious people.
+Let's talk. I am excited about what the future holds and I want to be a part of it.

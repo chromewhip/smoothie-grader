@@ -45,7 +45,7 @@ var Form = React.createClass({
         <option selected disabled>- Please Select -</option>
         <option>Water</option>
         <option>Almond</option>
-        <option>Milk (2%)</option>
+        <option>Milk</option>
         <option>Skim Milk</option>
         <option>Soy Milk</option>
         <option>Coconut Water</option>
@@ -54,6 +54,7 @@ var Form = React.createClass({
         <option>Berry Juice</option>
         <option>Lemon Juice</option>
         <option>Lime Juice</option>
+        <option>VitCblaster</option>
       </select>
       <label className="form-label "for="seednut_query">Seed/Nut Ingredient</label>
       <select className="form-entry" name="seednut">
@@ -89,20 +90,6 @@ var Form = React.createClass({
         <option>Honey</option>
         <option>Brown Sugar</option>
         <option>Sugar</option>
-      </select>
-      <label className="form-label "for="protein_query">Miscellaneous</label>
-      <select className="form-entry" name="miscellaneous">
-        <option selected disabled>- Please Select -</option>
-        <option>Soy protein powder</option>
-        <option>Whey protein powder</option>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
-        <option></option>
       </select>
         <input className="btn-grade" type="submit" value="GRADE MY SMOOTHIE" />
       </form>
