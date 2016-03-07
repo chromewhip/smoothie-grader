@@ -23,7 +23,7 @@ require 'csv'
 require 'pg'
 require 'csv'
 arr=[]
-users_csvs = Dir['./db/foodCSV/vegetables/*1.csv']
+users_csvs = Dir['./db/foodCSV/vegetables/must*1.csv']
 # users_csvs2 = Dir['./db/foodCSV/berries/*1.csv']
 # users_csvs3 = Dir['./db/foodCSV/alternate_csv/*1.csv']
 puts "starting"
@@ -44,7 +44,7 @@ users_csvs.each do |user_file|
 
 cleaner_filename = user_file.gsub('1.csv', '').gsub(/.*\//, '')
 
-
+puts cleaner_filename
 # conn.prepare('statement1', 'insert into table1 (id, name, profile) values ($1, $2, $3)')
 record={} #This will be created to record the column name and its corresponding value
 columns_values = [] #This array will store hashes of column names and values
