@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20160225203944) do
   enable_extension "plpgsql"
 
   create_table "foods", force: true do |t|
-    t.string "name"
+    t.string "name",            null: false
     t.float  "water"
     t.float  "energy"
     t.float  "protein"
