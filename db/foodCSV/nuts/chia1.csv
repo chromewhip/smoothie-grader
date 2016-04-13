@@ -1,36 +1,36 @@
 Source: USDA National Nutrient Database for Standard Reference 28 Software v.2.3.7.5
 Basic Report
-Report Run at: February 22, 2016 16:47 EST
+Report Run at: February 24, 2016 16:03 EST
 "Nutrient data for: 12006, Seeds, chia seeds, dried"
-Nutrient,Unit,.25Value per 25 g,"1 oz = 28.35g",
+Nutrient,Unit,0.07Value per 7 g,"1 oz = 28.35g",
 Proximates
-"Water",g,1.45,1.64
-"Energy",kcal,122,138
-"Protein",g,4.14,4.69
-"Total lipid (fat)",g,7.68,8.71
-"Carbohydrate, by difference",g,10.53,11.94
-"Fiber, total dietary",g,8.6,9.8
+"Water",g,0.41,1.64
+"Energy",kcal,34,138
+"Protein",g,1.16,4.69
+"Total lipid (fat)",g,2.15,8.71
+"Carbohydrate, by difference",g,2.95,11.94
+"Fiber, total dietary",g,2.4,9.8
 Minerals
-"Calcium, Ca",mg,158,179
-"Iron, Fe",mg,1.93,2.19
-"Magnesium, Mg",mg,84,95
-"Phosphorus, P",mg,215,244
-"Potassium, K",mg,102,115
-"Sodium, Na",mg,4,5
-"Zinc, Zn",mg,1.14,1.30
+"Calcium, Ca",mg,44,179
+"Iron, Fe",mg,0.54,2.19
+"Magnesium, Mg",mg,23,95
+"Phosphorus, P",mg,60,244
+"Potassium, K",mg,28,115
+"Sodium, Na",mg,1,5
+"Zinc, Zn",mg,0.32,1.30
 Vitamins
-"Vitamin C, total ascorbic acid",mg,0.4,0.5
-"Thiamin",mg,0.155,0.176
-"Riboflavin",mg,0.042,0.048
-"Niacin",mg,2.208,2.503
+"Vitamin C, total ascorbic acid",mg,0.1,0.5
+"Thiamin",mg,0.043,0.176
+"Riboflavin",mg,0.012,0.048
+"Niacin",mg,0.618,2.503
 "Vitamin B-12",µg,0.00,0.00
-"Vitamin A, IU",IU,14,15
-"Vitamin E (alpha-tocopherol)",mg,0.12,0.14
+"Vitamin A, IU",IU,4,15
+"Vitamin E (alpha-tocopherol)",mg,0.04,0.14
 Lipids
-"Fatty acids, total saturated",g,0.832,0.944
-"Fatty acids, total monounsaturated",g,0.577,0.655
-"Fatty acids, total polyunsaturated",g,5.916,6.709
-"Fatty acids, total trans",g,0.035,0.040
+"Fatty acids, total saturated",g,0.233,0.944
+"Fatty acids, total monounsaturated",g,0.162,0.655
+"Fatty acids, total polyunsaturated",g,1.657,6.709
+"Fatty acids, total trans",g,0.010,0.040
 "Cholesterol",mg,0,0
 Amino Acids
 Other

@@ -1,39 +1,39 @@
 Source: USDA National Nutrient Database for Standard Reference 28 Software v.2.3.7.5
 Basic Report
-Report Run at: February 22, 2016 16:05 EST
-"Nutrient data for: 02065, Spearmint, fresh"
-Nutrient,Unit,1Value per 100 g,"2.0 leaves = 0.3g","2.0 tbsp = 11.4g",
+Report Run at: February 24, 2016 16:31 EST
+"Nutrient data for: 02066, Spearmint, dried"
+Nutrient,Unit,0.11Value per 11 g,"1 tsp = 0.5g","1 tbsp = 1.6g",
 Proximates
-"Water",g,85.55,0.26,9.75
-"Energy",kcal,44,0,5
-"Protein",g,3.29,0.01,0.38
-"Total lipid (fat)",g,0.73,0.00,0.08
-"Carbohydrate, by difference",g,8.41,0.03,0.96
-"Fiber, total dietary",g,6.8,0.0,0.8
+"Water",g,1.24,0.06,0.18
+"Energy",kcal,31,1,5
+"Protein",g,2.19,0.10,0.32
+"Total lipid (fat)",g,0.66,0.03,0.10
+"Carbohydrate, by difference",g,5.72,0.26,0.83
+"Fiber, total dietary",g,3.3,0.1,0.5
 Minerals
-"Calcium, Ca",mg,199,1,23
-"Iron, Fe",mg,11.87,0.04,1.35
-"Magnesium, Mg",mg,63,0,7
-"Phosphorus, P",mg,60,0,7
-"Potassium, K",mg,458,1,52
-"Sodium, Na",mg,30,0,3
-"Zinc, Zn",mg,1.09,0.00,0.12
+"Calcium, Ca",mg,164,7,24
+"Iron, Fe",mg,9.62,0.44,1.40
+"Magnesium, Mg",mg,66,3,10
+"Phosphorus, P",mg,30,1,4
+"Potassium, K",mg,212,10,31
+"Sodium, Na",mg,38,2,6
+"Zinc, Zn",mg,0.27,0.01,0.04
 Vitamins
-"Vitamin C, total ascorbic acid",mg,13.3,0.0,1.5
-"Thiamin",mg,0.078,0.000,0.009
-"Riboflavin",mg,0.175,0.001,0.020
-"Niacin",mg,0.948,0.003,0.108
-"Vitamin B-6",mg,0.158,0.000,0.018
-"Folate, DFE",µg,105,0,12
+"Vitamin C, total ascorbic acid",mg,0.0,0.0,0.0
+"Thiamin",mg,0.032,0.001,0.005
+"Riboflavin",mg,0.156,0.007,0.023
+"Niacin",mg,0.722,0.033,0.105
+"Vitamin B-6",mg,0.284,0.013,0.041
+"Folate, DFE",µg,58,3,8
 "Vitamin B-12",µg,0.00,0.00,0.00
-"Vitamin A, RAE",µg,203,1,23
-"Vitamin A, IU",IU,4054,12,462
+"Vitamin A, RAE",µg,58,3,8
+"Vitamin A, IU",IU,1164,53,169
 "Vitamin D (D2 + D3)",µg,0.0,0.0,0.0
 "Vitamin D",IU,0,0,0
 Lipids
-"Fatty acids, total saturated",g,0.191,0.001,0.022
-"Fatty acids, total monounsaturated",g,0.025,0.000,0.003
-"Fatty acids, total polyunsaturated",g,0.394,0.001,0.045
+"Fatty acids, total saturated",g,0.173,0.008,0.025
+"Fatty acids, total monounsaturated",g,0.023,0.001,0.003
+"Fatty acids, total polyunsaturated",g,0.358,0.016,0.052
 "Fatty acids, total trans",g,0.000,0.000,0.000
 "Cholesterol",mg,0,0,0
 Amino Acids

@@ -1,0 +1,44 @@
+Source: USDA National Nutrient Database for Standard Reference 27 Software v.2.3.8
+Basic Report
+Report Run at: February 28, 2016 02:25 EST
+"Nutrient data for: 14058, Beverages, Whey protein powder isolate"
+Nutrient,Unit,0.28Value per 28 g,"3.0 scoop = 86.0g",
+Proximates
+"Water",g,0.24,0.74
+"Energy",kcal,101,309
+"Protein",g,16.28,50.00
+"Total lipid (fat)",g,0.32,1.00
+"Carbohydrate, by difference",g,8.14,25.00
+"Fiber, total dietary",g,0.0,0.0
+"Sugars, total",g,0.32,1.00
+Minerals
+"Calcium, Ca",mg,195,600
+"Iron, Fe",mg,0.35,1.08
+"Magnesium, Mg",mg,65,200
+"Phosphorus, P",mg,163,500
+"Potassium, K",mg,244,750
+"Sodium, Na",mg,104,320
+"Zinc, Zn",mg,2.44,7.50
+Vitamins
+"Vitamin C, total ascorbic acid",mg,9.8,30.0
+"Thiamin",mg,0.244,0.750
+"Riboflavin",mg,0.277,0.850
+"Niacin",mg,3.256,10.000
+"Vitamin B-6",mg,0.326,1.000
+"Folate, DFE",µg,111,340
+"Vitamin B-12",µg,0.98,3.00
+"Vitamin A, RAE",µg,244,750
+"Vitamin A, IU",IU,814,2500
+"Vitamin E (alpha-tocopherol)",mg,2.20,6.75
+"Vitamin D (D2 + D3)",µg,0.0,0.0
+"Vitamin D",IU,0,0
+"Vitamin K (phylloquinone)",µg,13.0,40.0
+Lipids
+"Fatty acids, total saturated",g,0.163,0.500
+"Fatty acids, total monounsaturated",g,0.042,0.128
+"Fatty acids, total polyunsaturated",g,0.006,0.018
+"Fatty acids, total trans",g,0.000,0.000
+"Cholesterol",mg,3,10
+Amino Acids
+Other
+"Caffeine",mg,0,0

@@ -1,31 +1,31 @@
 Source: USDA National Nutrient Database for Standard Reference 28 Software v.2.3.7.5
 Basic Report
-Report Run at: February 22, 2016 16:20 EST
+Report Run at: February 24, 2016 16:43 EST
 "Nutrient data for: 19296, Honey"
-Nutrient,Unit,1Value per 100 g,"1 cup = 339.0g","1 tbsp = 21.0g","1 packet (0.5 oz) = 14.0g",
+Nutrient,Unit,.20Value per 20 g,"1 cup = 339.0g","1 tbsp = 21.0g","1 packet (0.5 oz) = 14.0g",
 Proximates
-"Water",g,17.10,57.97,3.59,2.39
-"Energy",kcal,304,1031,64,43
-"Protein",g,0.30,1.02,0.06,0.04
+"Water",g,3.42,57.97,3.59,2.39
+"Energy",kcal,61,1031,64,43
+"Protein",g,0.06,1.02,0.06,0.04
 "Total lipid (fat)",g,0.00,0.00,0.00,0.00
-"Carbohydrate, by difference",g,82.40,279.34,17.30,11.54
-"Fiber, total dietary",g,0.2,0.7,0.0,0.0
-"Sugars, total",g,82.12,278.39,17.25,11.50
+"Carbohydrate, by difference",g,16.48,279.34,17.30,11.54
+"Fiber, total dietary",g,0.0,0.7,0.0,0.0
+"Sugars, total",g,16.42,278.39,17.25,11.50
 Minerals
-"Calcium, Ca",mg,6,20,1,1
-"Iron, Fe",mg,0.42,1.42,0.09,0.06
-"Magnesium, Mg",mg,2,7,0,0
-"Phosphorus, P",mg,4,14,1,1
-"Potassium, K",mg,52,176,11,7
-"Sodium, Na",mg,4,14,1,1
-"Zinc, Zn",mg,0.22,0.75,0.05,0.03
+"Calcium, Ca",mg,1,20,1,1
+"Iron, Fe",mg,0.08,1.42,0.09,0.06
+"Magnesium, Mg",mg,0,7,0,0
+"Phosphorus, P",mg,1,14,1,1
+"Potassium, K",mg,10,176,11,7
+"Sodium, Na",mg,1,14,1,1
+"Zinc, Zn",mg,0.04,0.75,0.05,0.03
 Vitamins
-"Vitamin C, total ascorbic acid",mg,0.5,1.7,0.1,0.1
+"Vitamin C, total ascorbic acid",mg,0.1,1.7,0.1,0.1
 "Thiamin",mg,0.000,0.000,0.000,0.000
-"Riboflavin",mg,0.038,0.129,0.008,0.005
-"Niacin",mg,0.121,0.410,0.025,0.017
-"Vitamin B-6",mg,0.024,0.081,0.005,0.003
-"Folate, DFE",µg,2,7,0,0
+"Riboflavin",mg,0.008,0.129,0.008,0.005
+"Niacin",mg,0.024,0.410,0.025,0.017
+"Vitamin B-6",mg,0.005,0.081,0.005,0.003
+"Folate, DFE",µg,0,7,0,0
 "Vitamin B-12",µg,0.00,0.00,0.00,0.00
 "Vitamin A, RAE",µg,0,0,0,0
 "Vitamin A, IU",IU,0,0,0,0
